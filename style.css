@@ -1,0 +1,115 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: #333;
+	background-color: #ea82ff;
+	/* 
+	background-image: url('images/background.jpg'); 
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+	*/
+	}
+marquee {
+	font-size: clamp(10px, 5vw, 32px);
+	color: #aaffba;
+	padding: 4px;
+	text-align: center;
+	font-family: 'Verdana', sans-serif; /* find a better one, scroll or flash */
+	background-color: #712989;
+	overflow: hidden;
+	white-space: nowrap;
+	}
+h1 {
+	font-size: clamp(20px, 10vw, 42px);
+	font-family: 'Indie Flower', cursive;
+	-webkit-text-stroke: 1px black;
+	padding: 5px;
+	text-align: center;
+	margin-left: 1%;
+	}
+	
+h2 {  
+	font-size: clamp(16px, 4vw, 24px);
+	padding: 4%;
+	text-align: center;
+	margin-left: 0%;
+	margin-right: 0%;
+	}
+
+.announcements-box {
+	background-color: #eecccc;
+	border: dotted;
+	border-radius: clamp(40px, 10vw, 100px);
+	margin: 1px auto;
+	max-width: 90%;
+	}	
+
+.announcement-text {
+	style: none;
+	font-size: clamp(14px, 3vw, 22px);
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	vertical-align: middle;
+	max-width: 95%;
+	display: inline-block;
+	}
+.return {
+	text-align: left;
+	font-family: 'Indie Flower', cursive;
+	font-size: 180%;
+	padding-left: 1%;
+	}
+ul.hearts {
+	list-style: none;
+	font-family: 'Indie Flower', cursive;
+	text-align: left;
+	margin-left: 5%;
+	font-size: 180%;
+	}
+ul.hearts li::before {
+	content: "♥ ";
+	color: "black";
+	font-size: 60%;
+	}
+h3, h4, h5 {
+	font-size: clamp(4px, 8vw, 36px);
+	font-family: 'Indie Flower', sans-serif;
+	-webkit-text-stroke: 1px black;
+	padding: 5px;
+	text-align: left;
+	margin-left: 1%;
+	}
+p {
+	font-size: clamp(4px, 2vw, 16px);
+	text-align: left;
+	margin-left: 1%;
+	margin-right: 1%;
+	font-size: 120%;
+	font-family: 'Verdana', sans-serif;
+	max-width: 65%;
+	}
+img {
+	max-width: min(90%, 600px);
+	height: auto;
+	display: block;
+	margin: 0 auto;
+	}
+footer {
+	text-align: center;
+	padding: 10px;
+	background: #222;
+	color: white;
+	}
+f1 {
+	display: inline-block;
+	}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
